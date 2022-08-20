@@ -1,0 +1,205 @@
+.Me{
+    width: 400px;
+    height: 470px;
+    border-radius: 30px;
+}
+
+.Kali{
+    height: 40%px;
+    width: 100%;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.principal_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_container{
+   display: flex;
+   gap: 20px;
+    margin: 10px;
+}
+
+
+/* About me */
+
+.about_me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.Description_me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Certified_Img1{
+    width: 90%;
+    height: 300px;
+}
+
+.Certified_Img2{
+    width: 90%;
+    height: 270px;
+}
+
+
+/* Experience */
+
+
+.Xp_Soft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.xp{
+    width: 90%;
+}
+
+/* Soft Skills */
+
+.Soft_Skills{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    
+}
+
+
+/* Portfolio */
+
+.Portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+}
+
+
+
+.card_portfolio {
+    width: 12rem;
+    cursor: pointer;
+  }
+  
+  .content {
+    text-align: center;
+    position: relative;
+    transition: all 2.25s;
+    background-color: rgb(127, 204, 240);
+    padding: 5em;
+    transform-style: preserve-3d;
+  }
+  
+  .card_portfolio:hover .content {
+    transform: rotateY(0.5turn);
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 2em;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
+  
+  .title {
+    transform: translateZ(5rem);
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    transform: translateZ(2rem);
+  }
+  
+  .back {
+    transform: rotateY(0.5turn);
+    background-color: #009bff;
+  }
+  
+  .description {
+    transform: translateZ(3rem);
+  }
+  
+
+  /* Contact */
+
+  .Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  @media only screen and (min-width: 900px)  {
+
+
+.Me{
+    width: 600px;
+    height: 570px;
+}
+
+.Kali{
+    width: 800px;
+}
+
+.Certified_Img2{
+    width: 300px;
+}
+
+.Xp_Soft{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    
+   
+
+}
+
+.Portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 170px;
+}
+
+}
